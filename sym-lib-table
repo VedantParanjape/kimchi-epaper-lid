@@ -1,3 +1,5 @@
 (sym_lib_table
   (lib (name kimchi_ulid)(type Legacy)(uri ${KIPRJMOD}/kimchi_ulid.lib)(options "")(descr ""))
+  (lib (name TXS0104ED)(type Legacy)(uri ${KIPRJMOD}/component-libraries/TXS0104ED/TXS0104ED.lib)(options "")(descr ""))
+  (lib (name epaper-fpc-connector)(type Legacy)(uri ${KIPRJMOD}/component-libraries/EPAPER_FPC_CONNECTOR/epaper-fpc-connector.lib)(options "")(descr ""))
 )

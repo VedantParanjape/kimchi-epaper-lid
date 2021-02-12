@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name kimchi_ulid)(type KiCad)(uri ${KIPRJMOD}/kimchi_ulid.pretty)(options "")(descr ""))
+  (lib (name TXS0104ED)(type Legacy)(uri ${KIPRJMOD}/component-libraries/TXS0104ED/TXS0104ED.mod)(options "")(descr ""))
 )
