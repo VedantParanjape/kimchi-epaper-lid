@@ -2,4 +2,6 @@
   (lib (name kimchi_ulid)(type Legacy)(uri ${KIPRJMOD}/kimchi_ulid.lib)(options "")(descr ""))
   (lib (name TXS0104ED)(type Legacy)(uri ${KIPRJMOD}/component-libraries/TXS0104ED/TXS0104ED.lib)(options "")(descr ""))
   (lib (name epaper-fpc-connector)(type Legacy)(uri ${KIPRJMOD}/component-libraries/EPAPER_FPC_CONNECTOR/epaper-fpc-connector.lib)(options "")(descr ""))
+  (lib (name SI1308EDL-T1-BE3)(type Legacy)(uri ${KIPRJMOD}/component-libraries/SI1308EDL-T1-BE3/SI1308EDL-T1-BE3.lib)(options "")(descr ""))
+  (lib (name NLV32T-680J-EF)(type Legacy)(uri ${KIPRJMOD}/component-libraries/NLV32T-680J-EF/NLV32T-680J-EF.lib)(options "")(descr ""))
 )
