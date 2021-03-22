@@ -1257,4 +1257,18 @@ F 3 "" H 4650 7550 50  0001 C CNN
 	1    4650 7550
 	1    0    0    -1  
 $EndComp
+Text GLabel 12010 2540 3    50   Input ~ 0
+PCIE_USB_D_N
+Text GLabel 12430 2540 3    50   Input ~ 0
+PCIE_USB_D_P
+Text GLabel 12430 1935 1    50   Input ~ 0
+USB2_DP
+Text GLabel 12010 1940 1    50   Input ~ 0
+USB2_DN
+Wire Wire Line
+	12010 2540 12010 1940
+Wire Wire Line
+	12430 1935 12430 2540
+Text Notes 12565 2435 0    79   ~ 0
+Connected these together, so that USB2 pins \nwill be accessible on the PCIE port, as they \nare not being used.
 $EndSCHEMATC
