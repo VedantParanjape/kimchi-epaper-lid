@@ -3,5 +3,5 @@
   (lib (name TXS0104ED)(type Legacy)(uri ${KIPRJMOD}/component-libraries/TXS0104ED/TXS0104ED.mod)(options "")(descr ""))
   (lib (name SI1308EDL-T1-BE3)(type Legacy)(uri ${KIPRJMOD}/component-libraries/SI1308EDL-T1-BE3/SI1308EDL-T1-BE3.mod)(options "")(descr ""))
   (lib (name epaper-fpc-connector)(type Legacy)(uri ${KIPRJMOD}/component-libraries/EPAPER_FPC_CONNECTOR/epaper-fpc-connector.mod)(options "")(descr ""))
-  (lib (name NLV32T-680J-EF)(type Legacy)(uri ${KIPRJMOD}/component-libraries/NLV32T-680J-EF/NLV32T-680J-EF.mod)(options "")(descr ""))
+  (lib (name LBM2016T680J)(type KiCad)(uri ${KIPRJMOD}/component-libraries/LBM2016T680J)(options "")(descr ""))
 )
