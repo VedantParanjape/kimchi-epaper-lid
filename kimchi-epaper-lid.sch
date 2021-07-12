@@ -1147,25 +1147,6 @@ F 3 "~" H 5050 8100 50  0001 C CNN
 	1    5050 8100
 	0    -1   1    0   
 $EndComp
-$Comp
-L SI1308EDL-T1-BE3:SI1308EDL-T1-BE3 Q1
-U 1 1 602E5C48
-P 5050 7050
-F 0 "Q1" H 5480 7196 50  0000 L CNN
-F 1 "SI1308EDL-T1-BE3" H 5480 7105 50  0000 L CNN
-F 2 "SI1308EDL-T1-BE3:SOT65P210X110-3N" H 5500 7000 50  0001 L CNN
-F 3 "https://www.mouser.es/datasheet/2/427/si1308edl-1764588.pdf" H 5500 6900 50  0001 L CNN
-F 4 "MOSFET 30V N-CHANNEL (D-S)" H 5500 6800 50  0001 L CNN "Description"
-F 5 "1.1" H 5500 6700 50  0001 L CNN "Height"
-F 6 "Vishay" H 5500 6600 50  0001 L CNN "Manufacturer_Name"
-F 7 "SI1308EDL-T1-BE3" H 5500 6500 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "78-SI1308EDL-T1-BE3" H 5500 6400 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SI1308EDL-T1-BE3/?qs=zW32dvEIR3shhEGZ2ACCcQ%3D%3D" H 5500 6300 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 5500 6200 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 5500 6100 50  0001 L CNN "Arrow Price/Stock"
-	1    5050 7050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4700 8250 4700 8100
 Wire Wire Line
@@ -1220,7 +1201,7 @@ Text GLabel 4700 8550 3    50   Input ~ 0
 PREVGL
 Text GLabel 5350 8550 3    50   Input ~ 0
 PREVGH
-Text GLabel 5050 7050 0    50   Input ~ 0
+Text GLabel 5650 6850 2    50   Input ~ 0
 GDR
 Text GLabel 5350 6650 1    50   Input ~ 0
 RESE
@@ -1270,5 +1251,24 @@ F 2 "LBM2016T680J:INDC2016X180N" H 4850 7700 50  0001 L BNN
 F 3 "" H 4850 7700 50  0001 L BNN
 	1    4850 7700
 	1    0    0    -1  
+$EndComp
+$Comp
+L SI1308EDL-T1-BE3:SI1308EDL-T1-BE3 Q1
+U 1 1 602E5C48
+P 5650 6850
+F 0 "Q1" H 6080 6996 50  0000 L CNN
+F 1 "SI1308EDL-T1-BE3" H 6080 6905 50  0000 L CNN
+F 2 "SI1308EDL-T1-BE3:SOT65P210X110-3N" H 6100 6800 50  0001 L CNN
+F 3 "https://www.mouser.es/datasheet/2/427/si1308edl-1764588.pdf" H 6100 6700 50  0001 L CNN
+F 4 "MOSFET 30V N-CHANNEL (D-S)" H 6100 6600 50  0001 L CNN "Description"
+F 5 "1.1" H 6100 6500 50  0001 L CNN "Height"
+F 6 "Vishay" H 6100 6400 50  0001 L CNN "Manufacturer_Name"
+F 7 "SI1308EDL-T1-BE3" H 6100 6300 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "78-SI1308EDL-T1-BE3" H 6100 6200 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SI1308EDL-T1-BE3/?qs=zW32dvEIR3shhEGZ2ACCcQ%3D%3D" H 6100 6100 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 6100 6000 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 6100 5900 50  0001 L CNN "Arrow Price/Stock"
+	1    5650 6850
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
